@@ -2,6 +2,16 @@
   padding: 0 2rem;
 }
 
+.red {
+  list-style: none;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.red:nth-child(odd) {
+  background: #cecece;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
